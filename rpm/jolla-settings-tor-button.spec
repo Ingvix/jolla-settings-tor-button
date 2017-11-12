@@ -40,7 +40,7 @@ cp -r settings/*.js %{buildroot}/usr/share/jolla-settings/pages/tor
 mkdir -p %{buildroot}/usr/share/jolla-settings/entries
 cp -r settings/*.json %{buildroot}/usr/share/jolla-settings/entries
 mkdir -p %{buildroot}/usr/share/themes/jolla-ambient/meegotouch/icons
-cp -r icons/*.png %{buildroot}/usr/share/themes/jolla-ambient/meegotouch/icons
+cp -r icons/*.png %{buildroot}/usr/share/themes/sailfish-default/meegotouch/icons
 # << install pre
 
 # >> install post
